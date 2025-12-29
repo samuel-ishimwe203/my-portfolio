@@ -10,7 +10,7 @@ function Introduction() {
           <span className="hello"></span>
           <span className="introText">I'm <span className="introname "></span> <br />Web application developer  </span>
           <p className="introprag">I am a skilled in software development with experience in creating visually appealing and user friendly websites </p>
-         <Link><button className="btn><img src={cas} alt="Hire me " />Hire me </button></Link>
+         <Link><button className="btn"><img src={cas} alt="Hire me " />Hire me </button></Link>
         </div>
          
        <img src=" " alt=""    className=''/>
