@@ -11,14 +11,14 @@ function Navbar() {
 
             <div className="navigations">
 
-                <link className="HomeMenu" >Home</link>
-                <link className="HomeMenu" >About</link>
-                <link className="HomeMenu" >portfolio</link>
-                <link className="HomeMenu" >clients</link>
+                <Link className="HomeMenu" >Home</Link>
+                <Link className="HomeMenu" >About</Link>
+                <Link className="HomeMenu" >portfolio</Link>
+                <Link className="HomeMenu" >clients</Link>
 
             </div>
 
-            <button className="btnMenu">
+            <button className="btnMenu"> contact me
 
             </button>
 
