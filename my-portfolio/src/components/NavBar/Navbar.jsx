@@ -16,7 +16,7 @@ function Navbar() {
                 <Link className="HomeMenu" >portfolio</Link>
                 <Link className="HomeMenu" >clients</Link>
 
-            </div
+            </div>
 
             <button className="btnMenu"> contact me
 
