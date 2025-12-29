@@ -18,7 +18,7 @@ function Navbar() {
 
             </div>
 
-            <buttn className="btnMenu"> contact me
+            <button className="btnMenu"> contact me
 
             </button>
 
