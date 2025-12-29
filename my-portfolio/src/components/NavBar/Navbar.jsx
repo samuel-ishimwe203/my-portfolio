@@ -20,7 +20,7 @@ function Navbar() {
             </div>
 
             <button className="btnMenu"> 
-                <img src="" alt="" className='btnI' />contact me</button>
+                <img src="" alt="" className='btn' />contact me</button>
 
         </nav>
   )
