@@ -9,4 +9,4 @@ function Introduction() {
   )
 }
 
-export dfault Introduction
+export default Introduction
