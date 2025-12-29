@@ -18,7 +18,10 @@
     width: 6rem;
 }
 
-.navigations{
+.HomeMenu{
     margin: 1rem;
     cursor: pointer;
+}
+.btnMenu{
+    
 }

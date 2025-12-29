@@ -13,13 +13,14 @@ function Navbar() {
             <div className="navigations">
 
                 <Link className="HomeMenu" >Home</Link>
-                <Link className="aboutMenu" >About</Link>
-                <Link className="folioMenu" >portfolio</Link>
-                <Link className="clientsMenu" >clients</Link>
+                <Link className="HomeMenu" >About</Link>
+                <Link className="HomeMenu" >portfolio</Link>
+                <Link className="HomeMenu" >clients</Link>
 
             </div>
 
-            <button className="btnMenu"> contact me</button>
+            <button className="btnMenu"> 
+                <img src="" alt="" className='btnImg' />contact me</button>
 
         </nav>
   )
