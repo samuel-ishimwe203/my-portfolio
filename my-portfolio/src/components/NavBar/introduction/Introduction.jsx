@@ -13,7 +13,7 @@ function Introduction() {
          <Link><button className="btn"><img src={cas} alt="Hire me " />Hire me </button></Link>
         </div>
          
-       <img src=" " alt=""    className='b'/>
+       <img src=" " alt=""    className='bg'/>
      </section>
   )
 }
