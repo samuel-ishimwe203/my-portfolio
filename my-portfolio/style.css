@@ -5,3 +5,10 @@
     background: transparent;
     text-decoration: none;
 }
+
+body{
+    background-color: rgb(30,30 ,30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
