@@ -5,7 +5,7 @@ function Introduction() {
   return (
      <section id="introduction">
        
-     </section
+     </section>
   )
 }
 
