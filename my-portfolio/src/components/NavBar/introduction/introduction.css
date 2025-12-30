@@ -9,10 +9,92 @@
 }
 
 .btn{
-    position: absolute;
-    top: -4rem;
-    right: 0;
-    z-index: -1;
-    object-fit: cover;
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center ;
+    margin: 1rem 0;
+    padding: 0 1.5rem;
+    border-radius: 2rem;
+  
+     
 
 }
+
+.btimg{
+     object-fit: cover;
+    height: 1rem;
+    width: 1rem  ;
+ 
+    margin: 1rem;
+
+}
+
+.profile{
+    position: absolute;
+    right: 0;
+    
+    z-index: -1 ;
+    top: 0;
+    border-radius: 2rem;
+    object-fit: cover;
+    ;
+    height: 700px;
+    width: 400px;
+
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding:2rem;
+    font-size: 3rem;
+    font-weight: 700;
+     display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 20px;
+    }
+
+    .hello{
+        font-size: 1.7rem;
+        font-weight: 100 ;
+    }
+
+    .introname{
+
+        color: yellow;
+
+
+    }
+    .introprag{
+        font-size: large;
+        font-weight: 300;
+  
+    }
+ @media  screen and (max-width: 840px) {
+        .profile{
+           right: -10vw;
+        }
+        .introContent{
+            font-size: 10vw 
+        }
+        .hello{
+            font-size: 4.5vw;
+        }
+    } 
+
+
+     @media  screen and (max-width: 480px) {
+
+              .profile{
+           right: - 20 vw;
+        }
+        .introContent{
+            font-size: 10vw 
+        }
+        .hello{
+            font-size: 4.5vw;
+        }
+    
+    } 
