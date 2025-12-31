@@ -31,7 +31,7 @@ function Contact() {
                     <img src={tech3} alt="" className="techImg" />
                       <img src={tech4} alt="" className="techImg" />
                         <img src={tech5} alt="" className="techImg" />
-                          <img src={tech6} alt=z"" className="techImg" />
+                          <img src={tech6} alt="" className="techImg" />
                            
                               <img src={tech8} alt="" className="techImg" />
                                 <img src={tech9} alt="" className="techImg" />
