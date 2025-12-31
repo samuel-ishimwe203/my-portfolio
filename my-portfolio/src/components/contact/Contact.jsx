@@ -23,7 +23,7 @@ function Contact() {
           <div id="technologies">
             <h2 className="technologyTitle">Technologies</h2>
              <p className="technologiesDesc">
-                I use modern web technologies to desiegn and develop responsive, scalable, and reliable applications. My work focuses on clean code, performance, and usability, combining frontend and backend tools to build practical digital solutions that solve real-world problems.
+                I use modern web technologies to design and develop responsive, scalable, and reliable applications. My work focuses on clean code, performance, and usability, combining frontend and backend tools to build practical digital solutions that solve real-world problems.
              </p>
              <div className="technologiesImg">
                 <img src={tech1} alt="" className="techImg" />
