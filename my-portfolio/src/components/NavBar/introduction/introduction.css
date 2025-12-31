@@ -72,29 +72,42 @@
         font-weight: 300;
   
     }
- @media  screen and (max-width: 840px) {
-        .profile{
-           right: -10vw;
-        }
-        .introContent{
-            font-size: 10vw 
-        }
-        .hello{
-            font-size: 4.5vw;
-        }
-    } 
+html, body {
+  overflow-x: hidden;
+}
 
+@media screen and (max-width: 840px) {
+  #introduction {
+    width: 100%;
+  }
 
-     @media  screen and (max-width: 480px) {
+  .introContent {
+    width: 100%;
+  }
 
-              .profile{
-           right: - 20 vw;
-        }
-        .introContent{
-            font-size: 10vw 
-        }
-        .hello{
-            font-size: 4.5vw;
-        }
-    
-    } 
+  .profile {
+    right: -10vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #introduction {
+    display: flex;
+    align-items: center;
+  }
+
+  .introContent {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .profile {
+    right: -15vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profile {
+    right: -25vw;
+  }
+}
