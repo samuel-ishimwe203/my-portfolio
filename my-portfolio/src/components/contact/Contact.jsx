@@ -27,7 +27,7 @@ function Contact() {
              </p>
              <div className="technologiesImg">
                 <img src={tech1} alt="" className="techImg" />
-                  <img src={tech2} alt="" className="techImg" />
+                  <img src={tech2} alt="" classhName="techImg" />
                     <img src={tech3} alt="" className="techImg" />
                       <img src={tech4} alt="" className="techImg" />
                         <img src={tech5} alt="" className="techImg" />
