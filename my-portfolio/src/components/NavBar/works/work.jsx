@@ -15,7 +15,7 @@ function work() {
       <h2 className="worksTitle">My portfolio</h2>
       <span className="workDesc">I focus on building clean, modern, and functional web applications with attention to detail and performance. My work combines good design, user experience, and solid development practices to create reliable digital solutions for real-world problems.</span>
       <div className="workImgs">
-         <img src={img1} alt="" className="worksimg" />
+         <img src={img1} alt=" className="worksimg" />
           <img src={img2} alt="" className="worksimg" />
            <img src={img3} alt="" className="worksimg" />
             <img src={img4} alt="" className="worksimg" />
