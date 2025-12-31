@@ -21,7 +21,7 @@ function Contact() {
   return (
       <section id="contactPage">
           <div id="technologies">
-            <h2 className="technologyTitle">MTechnologies</h2>
+            <h2 className="technologyTitle">My Technologies</h2>
              <p className="technologiesDesc">
                 I use modern web technologies to design and develop responsive, scalable, and reliable applications. My work focuses on clean code, performance, and usability, combining frontend and backend tools to build practical digital solutions that solve real-world problems.
              </p>
