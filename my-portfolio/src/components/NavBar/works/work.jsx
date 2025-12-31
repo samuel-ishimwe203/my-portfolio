@@ -5,10 +5,10 @@ import img2 from '../../../assets/image2.png'
 import img3 from '../../../assets/image3.png'
 import img4 from '../../../assets/image4.png'
 import img5 from '../../../assets/image5.png'
-import img6 from '../../../assets/web.png'
+import img6 from '../../../assets/image2.png'
 
 
-function work() {
+function Work() {
   return (
   <section id="works">
 
@@ -20,10 +20,11 @@ function work() {
            <img src={img3} alt="" className="worksimg" />
             <img src={img4} alt="" className="worksimg" />
              <img src={img5 } alt="" className="worksimg" />
-              <img src={im} alt="" className="worksimg" />
+              <img src={img6} alt="" className="worksimg" />
       </div>
+      <button className="workbtn">see more</button>
   </section>
   )
 }
 
-export default work;
+export default Work;

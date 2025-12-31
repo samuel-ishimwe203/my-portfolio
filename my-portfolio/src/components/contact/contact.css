@@ -1,0 +1,94 @@
+
+#contactPage {
+    min-width: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.technologyTitle{
+
+   margin-bottom: 1rem;
+    font-size: 3rem;
+
+}
+
+.technologiesDesc{
+
+      font-weight: 400;
+    font-size: 1.1rem;
+    max-width: 65rem;
+    padding: 0 2rem;
+    text-align: center;
+
+}
+.technologiesImg {
+    margin: 2rem ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 1rem;
+}
+.techImg{
+    object-fit: cover;
+    width: 25%;
+    min-width: 10rem;
+    margin: 1rem;
+   
+}
+
+#contact{
+    padding: 2rem;
+
+}
+.contactDesc{
+   padding: 1rem;
+   font-size: medium;
+   font-weight: 300
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width:60rem;
+    
+}
+.name,.email, .msg{
+font-size: medium;
+width: 100%;
+max-width: 40rem;
+margin: 0.5rem;
+padding: 0.5rem ;
+color: white;
+border: none;
+border-radius: 0.5rem;
+background: rgb(40,40,40);
+}
+
+.submitBtn{
+    padding: 0.75rem 3.5rem;
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 2rem;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}

@@ -16,7 +16,7 @@ function Navbar() {
                 <Link className="HomeMenu" >Home</Link>
                 <Link className="HomeMenu" >About</Link>
                 <Link className="HomeMenu" >portfolio</Link>
-                <Link className="HomeMenu" >clients</Link>
+                <Link className="HomeMenu" >Technologies</Link>
 
             </div>
 
