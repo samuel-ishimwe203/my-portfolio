@@ -20,7 +20,7 @@ function work() {
            <img src={img3} alt="" className="worksimg" />
             <img src={img4} alt="" className="worksimg" />
              <img src={img5 } alt="" className="worksimg" />
-              <img src={img6} alt="" className="worksimg" />
+              <img src={im} alt="" className="worksimg" />
       </div>
   </section>
   )
